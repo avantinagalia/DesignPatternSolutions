@@ -1,6 +1,6 @@
 package com.patterns.solution.adapter.Gmail;
 
-public class GmailProvider {
+public class GmailService {
     public void connect() {
         System.out.println("Connecting to Gmail");
     }

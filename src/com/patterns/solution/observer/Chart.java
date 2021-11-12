@@ -9,6 +9,6 @@ public class Chart implements Observer {
 
     @Override
     public void update() {
-        System.out.println("Chart got updated: " + dataSource.getValue());
+        System.out.println("Chart got updated and fetched the data using the pull mechanism: : " + dataSource.getValue());
     }
 }

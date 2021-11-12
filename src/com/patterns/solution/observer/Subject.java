@@ -3,7 +3,6 @@ package com.patterns.solution.observer;
 import java.util.ArrayList;
 import java.util.List;
 
-// Observable
 public class Subject {
     private List<Observer> observers = new ArrayList<>();
 

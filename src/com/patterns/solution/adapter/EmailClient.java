@@ -11,7 +11,7 @@ public class EmailClient {
     }
 
     public void downloadEmails() {
-        for (var provider : providers)
+        for (EmailProvider provider : providers)
             provider.downloadEmails();
     }
 }

@@ -9,6 +9,6 @@ public class SpreadSheet implements Observer {
 
     @Override
     public void update() {
-        System.out.println("SpreadSheet got notified: " + dataSource.getValue());
+        System.out.println("SpreadSheet got notified and got the data using the pull mechanism: " + dataSource.getValue());
     }
 }

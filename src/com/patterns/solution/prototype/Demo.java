@@ -2,11 +2,11 @@ package com.patterns.solution.prototype;
 
 public class Demo {
     public static void show() {
-        var slide = new Presentation();
+        var presentation = new Presentation();
         var text = new TextBox("Hello");
-        slide.add(text);
+        presentation.add(text);
 
-        var menu = new ContextMenu(slide);
+        var menu = new ContextMenu(presentation);
         menu.duplicate(text);
     }
 }
